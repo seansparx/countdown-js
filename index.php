@@ -1,7 +1,7 @@
 <html>
 <head>
 <script>
-SERVER_TIME = '<?php echo strtotime(gmdate("Y-m-d H:i:s")) * 1000; ?>';
+SERVER_TIME = '<?php echo strtotime(gmdate("Y-m-d H:i:s")) ; ?>';
 </script>
  <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
  <script type="text/javascript" src="countdown.js"></script>
